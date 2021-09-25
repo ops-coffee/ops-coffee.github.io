@@ -62,12 +62,6 @@ BASE_DIR=/home/data/probius/${PROJ}/${ENVT}
 DOCKER_DIR=${BASE_DIR}/docker
 IMAGE_NAME=`cat ${BASE_DIR}/cache/image.txt`
 
-if [ ${ENVT} == &quot;qa&quot; ];then
-    ENVT='trunk'
-elif [ ${ENVT} == &quot;qa2&quot; ];then
-    ENVT='trunk2'
-fi
-
 cd ${DOCKER_DIR} &amp;&amp;\
 export KUBECONFIG=/root/.kube/config &amp;&amp;\
 kubectl set image deployment/${ENVT}-${PROJ} ${ENVT}-${PROJ}=${IMAGE_NAME} -n ${ENVT} &amp;&amp;\
@@ -109,17 +103,17 @@ exit 1</code></pre>
             <ul class="nav-list-art">
               
               <li>
-                <a class="nav-item" href="/s/Nxh7mwPJPlbL3R9MdlkO_A.html" target="_blank">
+                <a class="nav-item" href="/s/uGUvV4jl4YIvNztuepdC8A.html" target="_blank">
                   <div class="nav-img nav-img-default"></div>
-                  <div class="nav-name">Alodi：为了保密我开发了一个系统</div>
+                  <div class="nav-name">中小团队落地配置中心详解</div>
                   <p></p>
                 </a>
               </li>
               
               <li>
-                <a class="nav-item" href="/s/uGUvV4jl4YIvNztuepdC8A.html" target="_blank">
+                <a class="nav-item" href="/s/ZrrLUNRlAXVfVKvA1m0nsg.html" target="_blank">
                   <div class="nav-img nav-img-default"></div>
-                  <div class="nav-name">中小团队落地配置中心详解</div>
+                  <div class="nav-name">中小团队快速构建SQL自动审核系统</div>
                   <p></p>
                 </a>
               </li>
@@ -133,9 +127,9 @@ exit 1</code></pre>
               </li>
               
               <li>
-                <a class="nav-item" href="/s/GATfwNETo_aGsJHZdV5YzQ.html" target="_blank">
+                <a class="nav-item" href="/s/xnBehfSlZ3J02xb0GFuGDw.html" target="_blank">
                   <div class="nav-img nav-img-default"></div>
-                  <div class="nav-name">中小团队基于Docker的devops实践</div>
+                  <div class="nav-name">Docker环境的持续部署优化实践</div>
                   <p></p>
                 </a>
               </li>
@@ -149,9 +143,9 @@ exit 1</code></pre>
               </li>
               
               <li>
-                <a class="nav-item" href="/s/xnBehfSlZ3J02xb0GFuGDw.html" target="_blank">
+                <a class="nav-item" href="/s/Nxh7mwPJPlbL3R9MdlkO_A.html" target="_blank">
                   <div class="nav-img nav-img-default"></div>
-                  <div class="nav-name">Docker环境的持续部署优化实践</div>
+                  <div class="nav-name">Alodi：为了保密我开发了一个系统</div>
                   <p></p>
                 </a>
               </li>
